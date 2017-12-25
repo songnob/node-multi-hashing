@@ -17,7 +17,7 @@
 #include "sha3/sph_echo.h"
 #include "sha3/sph_hamsi.h"
 #include "sha3/sph_fugue.h"
-
+#include "sph_sm3.h"
 
 void x13_hash(void *output, const void *input, uint32_t len)
 {
