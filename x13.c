@@ -19,7 +19,7 @@
 #include "sha3/sph_fugue.h"
 #include "sph_sm3.h"
 
-void x13_hash(const void* input, void *output, uint32_t len)
+void x13_hash(const char* input, char *output, uint32_t len)
 {
     unsigned char hash[128];
 
